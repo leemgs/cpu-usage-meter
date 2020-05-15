@@ -7,13 +7,13 @@ make
 ./cpumeter
 ```
 # Screenshot
-[CPU Load Graph with Excel](./image/screenshot_cpuload_graph.jpg)
+![CPU Load Graph with Excel](./image/screenshot_cpuload_graph.jpg)
 
 
 # Reference
 Please try to run `man proc` command. 
 ```bash
-/proc//stat.  (from Documentation/filesystems/proc.txt)
+/proc/[PID]/stat.  (from Documentation/filesystems/proc.txt)
 
 Table 1-3: Contents of the stat files (as of 2.6.22-rc3)
 ..............................................................................
